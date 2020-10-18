@@ -1,0 +1,162 @@
+/* Need to do refactoring */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+p {
+  color: #BFBFBF;
+}
+
+.container {
+  padding-bottom: 7%;
+  padding-top: 3%;
+}
+
+/* Nav Bar Section */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav-link {
+  font-size: 1.2;
+  margin: 1rem;
+}
+
+/* Title  Section */
+.btn {
+  margin: 5% 3% 5% 0;
+  /* top right bottom left */
+}
+
+.title-image {
+  position: absolute;
+  right: 30%;
+  transform: rotate(20deg);
+  width: 55%;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+/* Features Section */
+.icon {
+  color: #ef8172;
+  margin-bottom: 5px;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+#features {
+  background-color: white;
+  padding: 8rem;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 18%;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  /* to round img */
+  margin: 20px;
+  width: 10%;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-logo {
+  margin: 2%;
+  width: 15%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 6%;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* Call to Action Section */
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/* Footer Section */
+#footer {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.icon-footer {
+  margin: 100px 10px 20px 10px;
+}
